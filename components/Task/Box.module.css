@@ -1,0 +1,65 @@
+/* Box.module.css */
+
+.box {
+    /* Add styles for the box container */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .box:nth-child(1) {
+    width: 300px; /* Width for first box */
+  }
+  .box:hover {
+    transform: scale(1.05); /* Scale up the box on hover */
+  }
+  
+  .box:nth-child(2) {
+    width: 320px; /* Width for second box */
+  }
+  
+  .box:nth-child(3) {
+    width: 340px; /* Width for third box */
+    border: 2px solid #007bff;
+    border-radius: 5px; /* Border radius for third box */
+  }
+  
+  .icon {
+    /* Add styles for the icon */
+    margin-right: 20px;
+    transition: transform 0.3s ease; 
+  }
+
+  .icon:hover {
+    transform: rotate(360deg); /* Rotate the icon 360 degrees on hover */
+  }
+  
+  /* Define styles for specific icons */
+  .icon.Search {
+    /* Styles for the Search icon */
+    color: blue;
+  }
+  
+  .icon.Pitch {
+    /* Styles for the Pitch icon */
+    color: green;
+  }
+
+  .upperText{
+    font-weight: bold;
+    transition: text-decoration 0.3s ease;
+  }
+
+  .upperText:hover {
+    text-decoration: underline; /* Underline the text on hover */
+  }
+
+  .boldUnderline {
+    text-decoration: underline;
+    font-weight: bold;
+    color: blue;
+  }
+
+
